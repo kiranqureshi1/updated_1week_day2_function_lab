@@ -51,7 +51,7 @@ def number_to_full_month_name(month_number)
   when 9
     return "September"
   when 10
-    return "october"
+    return "October"
   when 11
     return "November"
   when 12
@@ -59,39 +59,39 @@ def number_to_full_month_name(month_number)
   end
 end
 
-def number_to_short_month_name(month_number)
+# def number_to_short_month_name(month_number)
 
-case month_number
-when 1
-  return "Jan"
-when 2
-  return "Feb"
-when 3
-  return "Mar"
-when 4
-  return "Apr"
-when 5
-  return "May"
-when 6
-  return "Jun"
-when 7
-  return "Jul"
-when 8
-  return "Aug"
-when 9
-  return "Sep"
-when 10
-  return "Oct"
-when 11
-  return "Nov"
-when 12
-  return "Dec"
-end
+# case month_number
+# when 1
+#   return "Jan"
+# when 2
+#   return "Feb"
+# when 3
+#   return "Mar"
+# when 4
+#   return "Apr"
+# when 5
+#   return "May"
+# when 6
+#   return "Jun"
+# when 7
+#   return "Jul"
+# when 8
+#   return "Aug"
+# when 9
+#   return "Sep"
+# when 10
+#   return "Oct"
+# when 11
+#   return "Nov"
+# when 12
+#   return "Dec"
+# end
 #other way of doing the same method
-#def number_to_short_month_name(month_number)
-#full_month_name =number_to_full_month_name(month_number)
-#sliced_month-name = full_month_name.slice(0,3) #that would mean from 0 to number 3 excluding number 3 letter)
-#return sliced_month_name
+def number_to_short_month_name(month_number)
+full_month_name =number_to_full_month_name(month_number)
+sliced_month_name = full_month_name.slice(0,3) #that would mean from 0 to number 3 excluding number 3 letter)
+return sliced_month_name
 end
 
 def volume_of_cube(length)
