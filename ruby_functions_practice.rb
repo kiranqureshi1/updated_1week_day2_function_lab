@@ -87,6 +87,11 @@ when 11
 when 12
   return "Dec"
 end
+#other way of doing the same method
+#def number_to_short_month_name(month_number)
+#full_month_name =number_to_full_month_name(month_number)
+#sliced_month-name = full_month_name.slice(0,3) #that would mean from 0 to number 3 excluding number 3 letter)
+#return sliced_month_name
 end
 
 def volume_of_cube(length)
